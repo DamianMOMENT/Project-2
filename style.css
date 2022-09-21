@@ -8,7 +8,7 @@
 .header{
     display: flex;
     justify-content: space-around;
-    min-height: 20vh;
+    min-height: fit-content;
     position: fixed;
     z-index: 1;
     width: 100%;
@@ -25,26 +25,26 @@
 @media screen and (max-width:769px) {
       .header{
         display: block;
-        min-height: 40vh;
+        min-height: fit-content;
         width: 100%;
       }
 }
 
 @media screen and (max-width:426px) {
     .header{
-        min-height: 70vh;
+        min-height: fit-content;
     }
 }
 
 @media screen and (max-width:376px) {
   .header{
-    min-height: 68vh ;
+    min-height: fit-content ;
   }
 }
 
 @media screen and (max-width:321px) {
     .header{
-      min-height: 62vh ;
+      min-height: fit-content ;
     }
   }
 
@@ -231,12 +231,24 @@
     padding: 13px 4px;
 }
 
+@media screen and (max-width:425px){
+    .shopping-cart{
+        padding: 12px 2px;
+    }
+}
+
 .shopping-cart i{
   font-size: 25px;
   color: white;
   background-color:#fa9db7;
   border-radius: 50%;
   padding: 10px;  
+}
+
+@media screen and (max-width:425px){
+    .shopping-cart i{
+        font-size: 12px;
+    }
 }
 
 .header-cart{
@@ -280,8 +292,10 @@
     .header-cart{
         position: relative;
         left: 1.6rem;
-        top: 0.5rem;
+        top: 2px;
+        margin-bottom: 12px;
     }
+
 }
 /* endd */
 
