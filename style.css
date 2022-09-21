@@ -8,7 +8,7 @@
 .header{
     display: flex;
     justify-content: space-around;
-    height: 20vh;
+    min-height: 20vh;
     position: fixed;
     z-index: 1;
     width: 100%;
@@ -22,27 +22,27 @@
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:769px) {
       .header{
         display: block;
-        height: 40vh;
+        min-height: 40vh;
         width: 100%;
       }
 }
 
-@media screen and (max-width:425px) {
+@media screen and (max-width:426px) {
     .header{
         min-height: 70vh;
     }
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:376px) {
   .header{
     min-height: 68vh ;
   }
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:321px) {
     .header{
       min-height: 62vh ;
     }
