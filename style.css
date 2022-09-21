@@ -229,6 +229,7 @@
     width: fit-content;
     height: fit-content;
     padding: 13px 4px;
+    display: none;
 }
 
 @media screen and (max-width:425px){
@@ -243,6 +244,7 @@
   background-color:#fa9db7;
   border-radius: 50%;
   padding: 10px;  
+  display: none;
 }
 
 @media screen and (max-width:425px){
