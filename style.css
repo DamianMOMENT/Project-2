@@ -32,19 +32,19 @@
 
 @media screen and (max-width:425px) {
     .header{
-        height: 70vh;
+        min-height: 70vh;
     }
 }
 
 @media screen and (max-width:375px) {
   .header{
-    height: 68vh ;
+    min-height: 68vh ;
   }
 }
 
 @media screen and (max-width:320px) {
     .header{
-      height: 62vh ;
+      min-height: 62vh ;
     }
   }
 
